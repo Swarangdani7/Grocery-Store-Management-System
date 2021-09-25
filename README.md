@@ -5,7 +5,7 @@ HOW TO RUN:
 
 2. Change file path in terminal to where you are downloading project
 
-3. Check if tkinter is installed in python
+3. install dependencies  
 
 4. Open login.py file to view the code
 
@@ -20,48 +20,16 @@ Database:
  Tables: admin_register,employees,invoices,products
  
 1.admin_register
-+----------+-------------+------+-----+---------+----------------+
-| Field    | Type        | Null | Key | Default | Extra          | 
-+----------+-------------+------+-----+---------+----------------+
-| id       | int         | NO   | PRI | NULL    | auto_increment |
-| username | varchar(50) | YES  |     | NULL    |                |
-| password | varchar(50) | YES  |     | NULL    |                |
-+----------+-------------+------+-----+---------+----------------+
+ * fields : id, username, password
 
 2.employees
-+---------------+-------------+------+-----+---------+----------------+
-| Field         | Type        | Null | Key | Default | Extra          |
-+---------------+-------------+------+-----+---------+----------------+
-| employee_id   | int         | NO   | PRI | NULL    | auto_increment |
-| username      | varchar(50) | NO   |     | NULL    |                |
-| password      | varchar(50) | NO   |     | NULL    |                |
-| employee_name | varchar(50) | NO   |     | NULL    |                |
-| contact_num   | bigint      | NO   |     | NULL    |                |
-| address       | varchar(50) | NO   |     | NULL    |                |
-| aadhar_num    | bigint      | NO   |     | NULL    |                |
-+---------------+-------------+------+-----+---------+----------------+
+ * fields : employee_id, username, password, employee_name, contact_num, address, aadhar_num
 
 3.invoices
-+------------------+-------------+------+-----+---------+-------+
-| Field            | Type        | Null | Key | Default | Extra |
-+------------------+-------------+------+-----+---------+-------+
-| bill_number      | int         | NO   | PRI | NULL    |       |
-| date             | datetime    | NO   |     | NULL    |       |
-| customer_name    | varchar(50) | NO   |     | NULL    |       |
-| customer_contact | bigint      | NO   |     | NULL    |       |
-+------------------+-------------+------+-----+---------+-------+
+ * fields : bill_number, date, customer_name, customer_contact
 
 4.products
-+----------------+---------------+------+-----+---------+----------------+
-| Field          | Type          | Null | Key | Default | Extra          |
-+----------------+---------------+------+-----+---------+----------------+
-| product_id     | int           | NO   | PRI | NULL    | auto_increment |
-| category       | varchar(50)   | NO   |     | NULL    |                |
-| sub_category   | varchar(50)   | NO   |     | NULL    |                |
-| product_name   | varchar(50)   | NO   |     | NULL    |                |
-| stock_quantity | int           | NO   |     | NULL    |                |
-| MRP            | decimal(10,2) | NO   |     | NULL    |                |
-+----------------+---------------+------+-----+---------+----------------+
+ * fields : product_id, category, sub_category, product_name, stock_quantity, MRP
 
 Software Requirements:
 ----------------------
