@@ -5,11 +5,11 @@ HOW TO RUN:
 
 2. Change file path in terminal to where you are downloading project
 
-3. install dependencies  
+3. Install dependencies  `` pip install requirements.txt ``
 
 4. Open login.py file to view the code
 
-5. Open the terminal and type python login.py to run program.
+5. Open the terminal and enter `` python login.py `` to run program.
 
 Note : You have to create your own database
 
