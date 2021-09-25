@@ -17,7 +17,8 @@ Database:
 ------------
 
  Database name: grocery_store
- Tables: admin_register,employees,invoices,products
+ 
+ Tables: admin_register, employees, invoices, products
  
 1.admin_register
  * fields : id, username, password
